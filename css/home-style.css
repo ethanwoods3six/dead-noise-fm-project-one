@@ -352,6 +352,16 @@ html.w-mod-touch * {
 	margin-right: 20px;
 }
 
+@media (max-width: 767px){
+  .navbar-default{
+    padding-bottom: 10px;
+  }
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000000;
+}
+
 .nav-link {
   float: left;
   clear: left;
