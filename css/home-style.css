@@ -5,6 +5,8 @@
   font-style: normal;
 }
 
+/* Main Body and Responsive Content*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -327,6 +329,8 @@ html.w-mod-touch * {
   background-color: #000;
 }
 
+/*Navbar and Top Image*/
+
 .topimage {
   margin-top: -1px;
   padding-top: 0px;
@@ -374,6 +378,7 @@ html.w-mod-touch * {
 	border: 1px;
 	border-color: #fff;
 }
+/* About Us */
 
 .aboutushome {
   padding-bottom: 24px;
@@ -411,9 +416,178 @@ html.w-mod-touch * {
   padding-bottom: 36px;
 }
 
-.row {
+.row1 {
   margin: 44px 44px 23px;
   border: 1px solid #fff;
   border-radius: 2px;
   background-color: #000;
 }
+
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.bottomimagecontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -1px;
+  padding-top: 44px;
+  padding-bottom: 40px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* Footer */
+
+.footerwrapper {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.logofooter {
+  float: left;
+  text-align: left;
+}
+
+.div-block-8 {
+  background-color: red;
+  text-align: center;
+}
+
+.twittericonfooter {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  margin-top: 30px;
+  float: none;
+  clear: none;
+  text-align: left;
+}
+
+.facebookiconfooter {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  overflow: visible;
+  width: 40px;
+  height: auto;
+  margin-top: 30px;
+  margin-right: 16px;
+  margin-left: -182px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+  direction: ltr;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+  content: " ";
+  display: table;
+}
+.w-clearfix:after {
+  clear: both;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 991px) {
+  .flexparent {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .topimage {
+    background-position: 52% -6%;
+  }
+  .aboutushome {
+    background-position: -42px 88px;
+  }
+  .icon {
+    color: #fff;
+  }
+  .navmenutoggle {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #000;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .topimage {
+    background-position: 53% -4%;
+  }
+  .aboutushome {
+    background-position: -33px -62px;
+  }
+  .nav-link-2 {
+    background-color: #000;
+  }
+  .nav-link-3 {
+    position: relative;
+    left: -292px;
+    right: 0px;
+    bottom: -29px;
+    display: inline-block;
+    margin-top: 29px;
+    margin-bottom: 24px;
+    padding-left: 32px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  .navmenutoggle.w--open {
+    display: inline;
+    background-color: #000;
+  }
+  .nav-menu {
+    background-color: #000;
+  }
+}
+
+@media (max-width: 479px) {
+  .topimage {
+    background-position: 61% -5%;
+  }
+  .twittericonfooter {
+    top: -14px;
+  }
+  .facebookiconfooter {
+    top: -14px;
+    margin-left: -8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
