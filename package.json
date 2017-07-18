@@ -1,0 +1,19 @@
+{
+  "name": "dead-noise-fm-project-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanwoods3six/dead-noise-fm-project-one.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanwoods3six/dead-noise-fm-project-one/issues"
+  },
+  "homepage": "https://github.com/ethanwoods3six/dead-noise-fm-project-one#readme"
+}
