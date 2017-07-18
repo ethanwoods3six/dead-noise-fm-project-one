@@ -398,6 +398,13 @@ html.w-mod-touch * {
   background-size: 286px;
 }
 
+.aboutcontainer {
+  margin-top: 20px;
+  border: 1px solid #fff;
+  background-color: #000;
+  padding-right: 10px;
+}
+
 .aboutushomehead {
   font-family: 'Vcr osd mono 1', sans-serif;
   color: #fff;
