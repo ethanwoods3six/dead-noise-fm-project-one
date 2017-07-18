@@ -8,30 +8,33 @@
 
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-		<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="css/home-style.css" rel="stylesheet" type="text/css">
 
 	</head>
 	<body>
 		<div class="flexparent">
 			<div class="topimage"></div>
-				<div class="navwrapper">
-					<div class="navbar-2 w-nav" data-animation="default" data-collapse="small" data-duration="400">
-						<div class="container-8 w-container">
-							<nav class="nav-menu w-clearfix w-nav-menu" role="navigation">
-								<a class="nav-link-2 w-nav-link" href="#">Home</a>
-								<a class="nav-link-3 w-nav-link" href="#">Play</a>
-								<a class="nav-link-4 w-nav-link" href="#">Buy</a>
-								<a class="nav-link-5 w-nav-link" href="#">Subscribe</a>
-							</nav>
-						<div class="navmenutoggle w-hidden-main w-hidden-medium w-nav-button">
-							<div class="icon w-icon-nav-menu"></div>
-						</div>
+			<div class="container-fullwidth">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+    				</button>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+      				<li><a class="nav-link w-nav-link" href="#">Home</a></li>
+							<li><a class="nav-link w-nav-link" href="#">Play</a></li>
+							<li><a class="nav-link w-nav-link" href="#">Buy</a></li>
+							<li><a class="nav-link w-nav-link" href="#">Subscribe</a></li>
+    				</ul>
 					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
-
-
+	</div>
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
