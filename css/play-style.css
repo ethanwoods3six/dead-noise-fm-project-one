@@ -1,3 +1,5 @@
+/*artist section*/
+
 .playsoundcloud {
   padding-bottom: 24px;
   border-bottom: 1px solid #fff;
@@ -159,4 +161,79 @@
  -webkit-align-items: center;
  -ms-flex-align: center;
  align-items: center;
+}
+
+/* Mix Section */
+
+.mixh1 {
+  font-family: 'Vcr osd mono 1', sans-serif;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.countainermix {
+  margin-top: 20px;
+  margin-bottom: 21px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  border: 1px solid #fff;
+  background-color: #000;
+  text-align: left;
+}
+
+.playmix {
+  background-image: url('../images/giphy-4.gif');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.mix-head {
+  padding-bottom: 30px;
+}
+
+.mix1{
+  padding-bottom: 50px;
+}
+
+/* Responsive Section */
+
+@media (max-width: 767px) {
+  .containersoundcloud {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+	.playsoundcloud {
+    background-position: -33px -62px;
+}
+	.playmix {
+    background-position: 0px -104px;
+  }
+}
+
+@media (max-width: 479px) {
+
+  .playsoundcloud {
+    background-position: -59px -66px;
+  }
+
+  .playmix {
+    background-position: 0px -30px;
+  }
 }
