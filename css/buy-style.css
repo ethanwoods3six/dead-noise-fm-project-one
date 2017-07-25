@@ -1,19 +1,43 @@
 th{
 	font-family: 'Vcr osd mono 1', sans-serif;
   color: #fff;
+	padding-top: 10px;
 }
 
 td{
 	font-family: 'Vcr osd mono 1', sans-serif;
   color: #fff;
+	padding-top: 25px;
+	text-align: center;
 }
 
 .headingtable{
 	font-size: 25px;
 	padding-bottom: 25px;
 	text-decoration: underline;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.artistheadingbuy{
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
 }
 
 .buycontainer-1{
-	padding-top: 50px;
+	padding-top: 15px;
+	margin-top: 50px;
+	padding-bottom: 60px;
 }
+
+.buyplayer{
+	margin-top: 15px;
+	padding-right: 25px;
+	margin-bottom: 15px;
+	padding-left: 25px;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
