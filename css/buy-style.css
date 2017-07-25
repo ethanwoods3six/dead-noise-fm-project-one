@@ -41,3 +41,11 @@ td{
 table, th, td {
     border: 1px solid #fff;
     border-collapse: collapse;
+}
+
+@media (max-width: 786px){
+	.depressed{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
