@@ -1,0 +1,19 @@
+th{
+	font-family: 'Vcr osd mono 1', sans-serif;
+  color: #fff;
+}
+
+td{
+	font-family: 'Vcr osd mono 1', sans-serif;
+  color: #fff;
+}
+
+.headingtable{
+	font-size: 25px;
+	padding-bottom: 25px;
+	text-decoration: underline;
+}
+
+.buycontainer-1{
+	padding-top: 50px;
+}
