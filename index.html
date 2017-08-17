@@ -12,6 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="css/home-style.css" rel="stylesheet" type="text/css">
+		<link href="css/main-responsive.css" rel="stylesheet" type="text/css">
 		<link href="css/play-style.css" rel="stylesheet" type="text/css">
 		<link href="css/buy-style.css" rel="stylesheet" type="text/css">
 
@@ -19,8 +20,37 @@
 
 	<body ng-app="sampleApp">
 
+		<div class="topimage"></div>
+		<div class="navbar-2">
+		<div class="container-fullwidth container-8">
+			<nav class="navbar navbar-default navbar-right" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="nav-link w-nav-link" href="/">Home<span class="sr-only">(current)</span></a></li>
+						<li><a class="nav-link w-nav-link" href="/play">Play</a></li>
+						<li><a class="nav-link w-nav-link" href="/buy">Buy</a></li>
+						<li><a class="nav-link w-nav-link" href="/subscribe">Subscribe</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	</div>
+
 	<div ng-view>
 	</div>
+
+	<div class="footerwrapper">
+		<div class="div-block-8 d-nav"><img class="logofooter w-hidden-tiny" src="images/logo.png"><img class="facebookiconfooter" src="images/iconmonstr-facebook-3-240.png" width="40"><img class="twittericonfooter" src="images/iconmonstr-twitter-3-240.png" width="40"></div>
+	</div>
+
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
